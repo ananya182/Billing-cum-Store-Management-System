@@ -1,0 +1,18 @@
+<html>
+<center>
+<font size="500" color="yellow">
+$$$$$$$$$ SALES & GST $$$$$$$$$
+</font>
+<body bgcolor="green">
+<font size="70" color="white">
+<br>
+<br>
+<br>
+<form>
+{% csrf_token %}
+<button type="submit" formaction="http://localhost:8000/gstcollection/" style="height: 3em; width: 150em font-weight: bold; font-size:20pt;">GST COLLECTION</button>
+<br>
+<br>
+<br>
+<button type="submit" formaction="http://localhost:8000/dailysale/" formmethod="GET" style="height: 3em; width: 150em font-weight: bold; font-size:20pt;">DAILY SALE</button>
+</form>

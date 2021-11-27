@@ -1,0 +1,20 @@
+<html>
+<center>
+<font size="500" color="yellow">
+****INVENTORY****
+</font>
+<body bgcolor="green">
+<font size="70" color="white">
+<br>
+<br>
+<br>
+<br>
+<form>
+{% csrf_token %}
+<button type="submit" formaction="http://localhost:8000/inventory2/" style="height: 3em; width: 100em font-weight: bold; font-size:20pt;">CHECK SPECIFIC ITEM</button>
+<br>
+<br>
+<button type="submit" formaction="http://localhost:8000/allbills/" formmethod="GET" style="height: 3em; width: 100em font-weight: bold; font-size:20pt;">SHOW ALL BILLS</button>
+</font>
+</form>
+</center>

@@ -1,0 +1,24 @@
+<html>
+<center>
+<font size="100" color="red"><marquee direction = "left" scrollamount=23>****BILLING****</marquee></font>
+<body bgcolor="purple">
+<form action="#" method="GET">
+{% csrf_token %}
+<font size="30" color="yellow">
+<br>
+ITEM CODE:<input type="text" name="code"/>
+<br>
+<br>
+QUANTITY:<input type="text" name="quantity"/>
+</font>
+<br>
+<br>
+<br>
+<input type="submit" value="NEXT ITEM" style= "height: 2em; width: 50em font-weight: bold; font-size:20pt;">
+<br>
+<br>
+<button type="submit" formaction="http://localhost:8000/bill_receipt/" formmethod="GET" style= "height: 2em; width: 50em font-weight: bold; font-size:20pt;">SHOW BILL</button>
+</form>
+</body>
+</center>
+</html>

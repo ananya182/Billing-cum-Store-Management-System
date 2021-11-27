@@ -1,0 +1,17 @@
+<html>
+<center>
+<font size="100" color="red"><marquee direction = "left" scrollamount=23>****INVENTORY****</marquee></font>
+<body bgcolor="purple">
+<form action="http://localhost:8000/item_detail1/" method="POST">
+{% csrf_token %}
+<font size="30" color="yellow">
+<br>
+ITEM CODE:<input type="text" name="code"/>
+<br>
+<br>
+<input type="submit"  value="SHOW DETAILS" style="height: 2em; width: 50em font-weight: bold; font-size:20pt;" >
+</form>
+</body>
+</font>
+</center>
+</html>
